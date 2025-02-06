@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>FORMing an idea</title>
+    <style>
+      body {
+        background-color: rgb(245, 7, 213);
+      }
+      .deviousTextboxes {
+        font-size: larger;
+        font-weight: 700;
+        margin-top: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+      }
+      .button {
+        background-color: aquamarine;
+        margin: 50px;
+        margin-left: 250px;
+      }
+      .button:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-family: sans-serif">GIVE ME YOUR IP</h1>
+    <form
+      name="deviousForm"
+      method="get"
+      action="Lab2_Website_FormSuccess.html"
+    >
+      <!-- The foundation of my plot -->
+      <div class="deviousTextboxes">
+        <label for="ip">Type in IP here: </label>
+        <input type="text" id="ip" required />
+        <br />
+        <label for="gamertag">Your 2009 Xbox360 GamerTag:</label>
+        <input type="text" id="gamertag" />
+      </div>
+      <!-- Submit Button -->
+      <br />
+      <hr />
+      <input type="submit" value="Free RAM" class="button" />
+    </form>
+  </body>
+</html>
